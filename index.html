@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="note.css">
+</head>
+<body>
+    <div class="container new-project">
+       
+    <div class="header text-center mb-5">
+        <h1>A simple note app 📔</h1>
+    </div>
+    <div id="alert">
+
+    </div>
+    <div class="mb-3 input-text">
+        <label for="exampleFormControlTextarea1" class="form-label">Write a Note </label>
+        <textarea id="text-input" class="form-control"  rows="3"></textarea>
+      </div>
+      <div class="btns">
+          <div class="main-btn">
+        <button id="btn-add" type="button" class="btn btn-outline-info btn-lg">add note  🧨</button>
+        <button id="btn-remove" type="button" class="btn btn-outline-info btn-lg">remove your input 🛶</button>
+        
+    </div>
+    
+    </div>
+<div class="note-head text-center mt-5">
+    <h1>your notes</h1>
+</div>
+    <div id="card-display" class="display ">
+       <h3 id="no-note">no notes here</h3>
+    </div>
+    </div>
+
+
+    <script src="note.js"></script>
+</body>
+</html>
